@@ -50,7 +50,7 @@ class NotionHelper:
     heatmap_block_id = None
     show_color = True
     block_type = "callout"
-    sync_bookmark = True
+    sync_bookmark = False
     def __init__(self):
         self.client = Client(auth=os.getenv("NOTION_TOKEN"), log_level=logging.ERROR)
         self.__cache = {}

@@ -44,7 +44,7 @@ jobs:
       - name: weread book sync
         run: |
           book
-      - name: weread sync
-        run: |
+     # - name: weread sync
+      #  run: |
           # weread
       
